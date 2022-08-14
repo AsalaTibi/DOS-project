@@ -1,7 +1,5 @@
 const express = require('express')
-const request=require('request');
 const router = express.Router()
-const post = require('../models/post')
 const db=require('../db/db')
 const { query } = require('express')
 const axios = require("axios")
